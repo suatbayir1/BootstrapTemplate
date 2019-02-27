@@ -1,0 +1,563 @@
+
+/*GENEL ÖZELLİKLER */
+.btn-outline-danger{
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:0;
+    cursor:pointer;
+}
+
+.btn-outline-primary{
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:0;
+    cursor:pointer;
+}
+
+.btn-outline-success{
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:0;
+    cursor:pointer;
+}
+
+/* NAVBAR STYLE */
+.navbar-brand img{
+    width:60px;
+    height:50px;
+}
+
+.nav-link{
+    color:white !important;
+    font-size:20px;
+    transition:color 1s ease;               /*1sn içinde rengi değiştir*/
+    text-transform:uppercase;                             /*büyük harf*/
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color:red !important;
+}
+
+.navbar{
+    border-bottom:#1886c7 5px solid;
+}
+
+.bg-dark {
+    background-color:rgba(0,0,0,1) !important;           /*menü arka plan renginin opacity özelliği*/
+}
+
+/*ANASAYFA STYLE*/
+#anasayfa {
+     background: url('../images/demir-çelik.jpg') no-repeat center center fixed;
+     background-size:cover;
+     height:100vh;   /*resmin ekranı kaplaması için*/
+}
+
+#anasayfa .overlay{
+    background-color:rgba(0,0,0,.8);
+}
+
+#anasayfa .row{
+    height:100vh;
+}
+
+.display-3 span{
+    color:#1886c7;
+}
+
+#anasayfa h1{
+    color:white;
+}
+
+#anasayfa p{
+    color:#b0a1a1;
+    font-size:16px;
+}
+
+#anasayfa .btn-outline-danger{
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:0;
+    cursor:pointer;
+}
+
+/* KURUMSAL */
+
+#resimGorsel{
+    margin-top: 150px;
+}
+
+#resimGorsel img{
+    height: 240px;
+    width: 300px;
+}
+
+#resimGorsel .saga{
+    text-align: right;
+}
+
+#resimGorsel h4{
+    color: #1886c7; 
+}
+
+#resimGorsel .cizgi{
+    height: 200px;
+    margin-left: 150px;
+    background-color: gray;
+    width: 5px !important;
+    margin-bottom: 0;
+}
+
+#resimGorsel .cizgi2{
+    height: 200px;
+    margin-left: 150px;
+    background-color: gray;
+    width: 5px !important;
+    margin-bottom: 0;
+}
+
+
+
+
+/*Tarihçe Style */
+
+#tarihce .col-md-6 img {
+    height: 500px;
+    width: 500px;
+}
+
+#tarihce .mt-5{
+    padding-bottom: 100px !important;
+    padding-top: 100px !important;
+}
+
+#tarihce container{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#tarihce .col-md-6 h2{
+    color: #1886c7;
+}
+
+#tarihce .col-md-6 button{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/*Slider Style */
+
+#slider .carousel-inner img{
+    height: 500px;
+    opacity: 0.5;
+}
+
+
+#slider{
+    background-color:#f4f5f9;
+}
+
+#slider p{
+    font:bolder;
+    color: blue;
+    font-size: 20px;
+}
+
+
+/*GRUP ŞİRKETLERİ*/
+
+
+#sirketler{
+    margin-bottom: 100px;
+}
+
+#sirketler .card{
+    width: 100%;
+    height: 600px;
+}
+
+#sirketler .card .card-block img{
+    height: 200px;
+}
+
+#sirketler .card{
+    border:none;
+    opacity:0.5;
+    cursor:pointer;
+    transition: all 0.5s ease; /*0.5 sn de renk opacity'i değiştir. */
+}
+
+#sirketler .card:hover{
+    opacity: 1;
+}
+
+#sirketler .card:hover{
+    color: #1886c7;
+}
+
+#sirketler .fa{
+    font-size: 40px;
+}
+
+#sirketler p{
+    font-size: 15px;
+}
+
+/* Neler yapıyoruz bölümü */
+
+#tanıtım .container{
+    margin-top: 80px;
+}
+
+#tanıtım{
+    margin-top: 80px;
+    background: linear-gradient(
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.7)
+    ),
+    url(../images/modal.jpg) ;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tanıtım h2{
+    color: #1886c7;
+}
+
+#tanıtım p{
+    color: #1886c7;
+}
+
+/*ÜRETİM BÖLÜMÜ */
+
+/*Çelikhane Tesisleri */
+
+#celikhane , #haddehane , #oksijen , #iletisim  .my-5{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#celikhane ul{
+    list-style-type:none;
+}
+
+#celikhane{
+    background-color: #f4f5f9;
+}
+
+#celikhane .celikhaneYazi{
+    margin-top: 30px;
+    margin-right: -60px;
+    background-color: white;
+    padding: 30px;
+    z-index: 100;                       /*resmin iç içe girmesini sağlar*/
+    position: relative;
+}
+
+#celikhane .celikhaneYazi i{
+    color: red;
+    font-size: 30px;
+}
+
+#celikhane .celikhaneYazi h3{
+    color: red;
+}
+
+#celikhane .celikhaneResim img{
+    height: 500px;
+}
+
+/*Haddehane Tesisleri */
+
+#haddehane ul{
+    list-style-type:none;
+}
+
+#haddehane{
+    background-color: #f4f5f9;
+}
+
+#haddehane .haddehaneYazi{
+    margin-top: 30px;
+    margin-right: -60px;
+    background-color: white;
+    padding: 30px;
+    z-index: 100;                       /*resmin iç içe girmesini sağlar*/
+    position: relative;
+}
+
+#haddehane .haddehaneYazi i{
+    color: #1886c7;
+    font-size: 30px;
+}
+
+#haddehane .haddehaneYazi h3{
+    color: #1886c7;
+}
+
+#haddehane .haddehaneResim img{
+    height: 500px;
+}
+
+/*Oksijen Tesisleri */
+
+#oksijen ul{
+    list-style-type:none;
+}
+
+#oksijen{
+    background-color: #f4f5f9;
+}
+
+#oksijen .oksijenYazi{
+    margin-top: 70px;
+    margin-right: -60px;
+    background-color: white;
+    padding: 30px;
+    z-index: 100;                       
+    position: relative;
+}
+
+#oksijen .oksijenYazi i{
+    color: green;
+    font-size: 30px;
+}
+
+#oksijen .oksijenYazi h3{
+    color: green;
+}
+
+#oksijen .oksijenResim img{
+    height: 500px;
+}
+
+/* GALERİ BÖLÜMÜ */
+
+#galeri img{
+    height: 250px;
+    width: 338px;               /*resimlerin aynı orantıda olması */
+}
+
+#galeri .col-md-3{
+    padding-left: 0;            /*aynı satırdaki resimler birbirine yapışır */
+    padding-right: 0;
+    text-align: center;
+}
+
+#galeri h4{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#galeri .fa{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#galeri p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#galeri .resimContainer{
+    position: relative;
+    cursor:pointer;
+}
+
+#galeri .resimOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+#galeri .resimContainer:hover .resimOverlay{
+    opacity: .7;
+}
+
+
+/* İLETİŞİM */
+
+#iletisim h2{
+    color: #1886c7;
+}
+
+#iletisim .my-5{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#iletisim .col-lg-6 form{
+    margin-top: 50px;
+}
+
+#iletisim{
+    background-color:#f4f5f9;
+}
+
+#iletisim .input-group-addon{           /* fa iconları için */
+    width: 40px;
+    border-radius:0;
+    color: #fff;
+    background-color:#1886c7;
+}
+
+#iletisim .input-group-addon i{
+    font-size: 30px;
+}
+
+#iletisim .form-group textarea{
+    resize: none;                      /* textarea boyutunu sabitler */
+}
+
+/* Footer */
+
+#myFooter{
+    color: white;
+    background-color: black;
+}
+
+#myFooter p{
+    font-size: 15px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px){
+    #tarihce .hakkımızda-yazı{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    .display-3{
+        font-size: 50px;
+    }
+
+    #tarihce .hakkımızda-yazı{
+        font-size: 13px;
+    }
+
+    #celikhane .celikhaneYazi{
+        font-size: 13px;
+    }
+
+    #haddehane .haddehaneYazi{
+        font-size: 13px;
+    }
+
+    #oksijen .oksijenYazi{
+        font-size: 13px;
+    }
+
+    #sirketler .card-block{
+        font-size: 100px;
+    }   
+
+    #sirketler .card{
+        
+        font-size:100px !important;
+    }
+
+    #resimGorsel .cizgi{
+        margin-left: 100px;
+    }
+
+    #resimGorsel .cizgi2{
+        margin-left: 100px;
+    }
+
+    #resimGorsel p{
+        font-size: 14px;
+    }
+
+    #sirketler .fa{
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+    #tanıtım{
+        margin-top: 350px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #anasayfa p{
+        font-size: 16px;
+    }
+
+    #tarihce .hakkımızda-yazı{
+        font-size: 15px;
+    }
+    
+    #tarihce h2{
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    #celikhane .celikhaneResim{
+        margin-left: 50px;
+    }
+
+    #haddehane .haddehaneResim{
+        margin-left: 50px;
+    }
+
+    #oksijen .oksijenResim{
+        margin-left: 50px;
+    }
+
+    #galeri img{
+        width: 100%;
+    }
+
+    #resimGorsel .cizgi{
+        margin-left: 250px;
+    }
+
+    #resimGorsel h4{
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    #resimGorsel p{
+        text-align: center;
+    }
+
+    #resimGorsel{
+        text-align: center;
+    }
+
+    #resimGorsel .cizgi2{
+        display: none;
+    }
+
+    #resimGorsel .bosluk{
+        margin-top: 100px;
+    }
+
+    #sirketler .fa{
+        font-size: 40px;
+    }
+
+    #tanıtım{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #anasayfa .display-3{
+        font-size: 70px;
+    }
+}
